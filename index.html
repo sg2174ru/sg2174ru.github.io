@@ -22,6 +22,15 @@
             padding: 40px 20px;
         }
 
+        .headshot {
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 5px solid white;
+            margin-bottom: 20px;
+        }
+
         header h1 {
             margin: 0;
             font-size: 36px;
@@ -30,6 +39,21 @@
         header p {
             margin-top: 10px;
             font-size: 18px;
+        }
+
+        .resume-button {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 12px 22px;
+            background-color: white;
+            color: #cc0033;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 6px;
+        }
+
+        .resume-button:hover {
+            background-color: #eeeeee;
         }
 
         main {
@@ -81,8 +105,21 @@
 <body>
 
     <header>
+
+        <img src="HEADSHOT.PNG"
+             alt="Professional headshot of Sophia Gorbalan"
+             class="headshot">
+
         <h1>Sophia Gorbalan</h1>
+
         <p>Accounting Student | Rutgers Business School</p>
+
+        <a href="Sophia%20Gorbalan%20Resume.pdf"
+           target="_blank"
+           class="resume-button">
+            View My Résumé
+        </a>
+
     </header>
 
     <main>
